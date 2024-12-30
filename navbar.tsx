@@ -59,7 +59,7 @@ export default function Navbar({children}: {children: React.ReactNode}) {
     return(
         <div className = "grid grid-cols-3 fixed left-0 right-0">
             <div/>
-            <motion.div className= "bg-brown" id = "navbar"
+            <motion.div className= "bg-sky-500" id = "navbar"
                 onMouseOver = {open}
                 onMouseLeave = {close}
                 onClick = {openClick}
