@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 
 export default function Navbar({children}: {children: React.ReactNode}) {
 
-    var timer = setTimeout(() => {});
+    let timer = setTimeout(() => {});
 
     function show(bar: HTMLElement, child: HTMLElement) {
         animate(bar, {scaleX: 1, scaleY: 1, y: 0, opacity: 1}, {duration: 0.3});
